@@ -1,8 +1,8 @@
 body {
-font-family: verdana, "sans-serif";
-color: white;
-text-align: center;
-background: black;
+  font-family: verdana, "sans-serif";
+  color: white;
+  text-align: center;
+  background: black;
 }
 
 h1 {
@@ -11,6 +11,10 @@ h1 {
 
 h2 {
   font-size: 42px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-weight: bold;
 }
 
@@ -19,13 +23,13 @@ p {
   font-size: 21px
 }
 
-.cta {
-  color: aquamarine;
+.cta a:link {
+  color: orange;
   font-size: 16px;
 }
 
-a:visited{
-  color:aquamarine;
+a:visited {
+  color: aquamarine;
 }
 
 .footer {
